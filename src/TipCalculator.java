@@ -4,8 +4,10 @@ public class TipCalculator {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Welcome to Tip Diner!");
-        System.out.print("What is your name?");
+        System.out.print("What is your name? ");
         String name = scan.nextLine();
-        System.out.print("Hello, " + name + " how many people are in your group?");
+        System.out.print("Hello, " + name + " how many people are in your group? ");
+        int numGroup = scan.nextInt();
+
     }
 }
